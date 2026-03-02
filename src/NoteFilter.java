@@ -1,3 +1,9 @@
+import java.util.List;
+import java.util.stream.Collectors;
+
+/**
+ * Фильтрация заметок по тегам
+ */
 public class NoteFilter {
     private NoteStorage storage;
 
